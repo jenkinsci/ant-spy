@@ -1,4 +1,4 @@
-*** Ant Spy
+# Ant Spy
 
 This library provides a convenient wrapper around Ant build event notification so that programs can inject themselves into Ant invocation and get notified of what targets/tasks are running with what parameters.
 

@@ -13,6 +13,12 @@
   <name>ant-spy</name>
   <url>http://jenkins-ci.org/</url>
 
+  <scm>
+    <connection>scm:git:git://github.com/jenkinsci/${project.artifactId}.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/jenkinsci/${project.artifactId}.git</developerConnection>
+    <url>https://github.com/jenkinsci/${project.artifactId}</url>
+  </scm>
+
   <build>
     <plugins>
       <plugin>
